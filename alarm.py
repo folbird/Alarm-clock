@@ -19,7 +19,7 @@ def main():
     root = tk.Tk()
     root.title('Time Table',)
     root.geometry('400x400+1020+0')
-    schedule = tk.PhotoImage(file='schedule.png')
+    schedule = tk.PhotoImage(file='source/schedule.png')
     root.iconphoto(True,schedule)
    # root.minsize(400,400)
     root.maxsize(400,400)
@@ -46,7 +46,7 @@ def main():
     Sec = Label(root,text='Sec',font=('Times',16))
     Sec.place(x=320,y=110)
     #设置时钟图标
-    icon = Image.open('icon.png')
+    icon = Image.open('source/icon.png')
     icon=icon.resize((72,72))
     icon = ImageTk.PhotoImage(icon)
     alarm_icon = Label(root,image=icon)

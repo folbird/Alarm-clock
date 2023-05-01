@@ -6,7 +6,7 @@ window = tk.Tk()
 window.geometry('100x100')
 
 def music_play():
-    playsound('Closer.mp3')
+    playsound('source/Closer.mp3')
 
 def alarm():
     while True:
