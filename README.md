@@ -1,4 +1,4 @@
-# aclock
+# Alarm-clock
 此项目是用python实现的闹钟程序，可定制音乐
 
 
